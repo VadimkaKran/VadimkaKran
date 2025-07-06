@@ -1004,6 +1004,557 @@ body #app .hud-radmir-radar__map {
     height: 1.4vh;
 }
 
+.old-money img {
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-right: 1.2vh
+}
+
+.old-param.health .old-param__icon {
+    width: 1.4vh;
+    height: 1.2vh
+}
+
+.old-param.armour .old-param__icon {
+    width: 1.4vh;
+    height: 1.4vh
+}
+
+.old-param.hunger .old-param__icon {
+    width: .8vh;
+    height: 1.4vh
+}
+
+.old-param.breath .old-param__icon {
+    width: .85vh;
+    height: .95vh
+}
+
+.old-param.wanted .old-param__icon {
+    width: 1.4vh;
+    height: 1.4vh;
+}
+
+.old-money img {
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-right: 1.2vh
+}
+
+.old-param.health .old-param__icon {
+    width: 1.4vh;
+    height: 1.2vh
+}
+
+.old-param.armour .old-param__icon {
+    width: 1.4vh;
+    height: 1.4vh
+}
+
+.old-param.hunger .old-param__icon {
+    width: .8vh;
+    height: 1.4vh
+}
+
+.old-param.breath .old-param__icon {
+    width: .85vh;
+    height: .95vh
+}
+body #app .hud-radmir-speedometer-secondary__data__before {
+    background-image: none
+}
+
+body #app .hud-radmir-speedometer__after {
+    display: none
+}
+
+body #app .hud-radmir-speedometer {
+    right: 1.2vh;
+    bottom: 1.5vh;
+    padding-right: 1vh;
+    transition: none !important
+}
+
+body #app .hud-radmir-speedometer-main__hidden {
+    opacity: 1
+}
+
+body #app .hud-radmir-speedometer_helloween:after {
+    background-image: none;
+    width: 0;
+    height: 0
+}
+
+body #app .hud-radmir-speedometer:after {
+    content: \"\";
+    position: absolute;
+    width: 32vh;
+    height: 8vh;
+    background-image: none;
+    background-size: cover;
+    background-position: 0;
+    right: 1vh;
+    bottom: 1vh;
+    z-index: -1;
+    background: #818181;
+    border-radius: .7vh
+}
+
+body #app .hud-radmir-speedometer-hint {
+    width: 0;
+    height: 0;
+    background-image: none;
+    background-position: 0;
+    display: none
+}
+
+body #app .hud-radmir-speedometer__new-year {
+    display: none
+}
+
+body #app .hud-radmir-speedometer-main__speed {
+    width: 32vh;
+    height: 8vh
+}
+
+body #app .hud-radmir-speedometer-main__turns {
+    display: none
+}
+
+body #app .hud-radmir-speedometer-main__speed-fill {
+    display: none
+}
+
+body #app .hud-radmir-speedometer-main__data {
+    flex-direction: row !important;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -3vh;
+    left: 1vh
+}
+
+body #app .hud-radmir-speedometer-main__data-value {
+    font-weight: 700;
+    font-size: 3vh;
+    color: #fff;
+    text-shadow: none;
+    font-family: 'GothamPro Bold';
+    font-style: normal;
+    text-align: left
+}
+
+body #app .hud-radmir-speedometer-main__data-text {
+    font-weight: 700;
+    font-size: 3vh;
+    text-shadow: none;
+    font-family: 'GothamPro Bold';
+    font-style: normal;
+    color: #bdbdbd;
+    font-size: 2vh;
+    margin-left: .5vh;
+    margin-top: 0
+}
+
+body #app .hud-radmir-speedometer-indicators {
+    width: 5.3vh;
+    height: 5.3vh;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    display: flex;
+    bottom: 2.5vh;
+    right: 1vh;
+    gap: 1.8vh
+}
+
+body #app .hud-radmir-speedometer-indicators__item {
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vh !important
+}
+
+body #app .hud-radmir-speedometer-indicators__item svg path {
+    fill: #fff !important
+}
+
+body #app .hud-radmir-speedometer-indicators__item:nth-child(2) {
+    margin-top: .4vh
+}
+
+body #app .hud-radmir-speedometer-indicators__item:nth-child(3) {
+    margin-top: 0
+}
+
+body #app .hud-radmir-speedometer-indicators__item:nth-child(4) {
+    margin-top: .4vh;
+    margin-right: 0 !important
+}
+
+body #app .hud-radmir-speedometer-mileage {
+    height: 2vh;
+    bottom: 1.96vh;
+    right: 1vh;
+    padding: 0;
+    -webkit-mask-image: none !important;
+    mask-image: none !important
+}
+
+body #app .hud-radmir-speedometer-mileage__container {
+    grid-template-columns: repeat(7, 1.4vh);
+    gap: .9vh;
+    grid-gap: 0vh
+}
+
+body #app .hud-radmir-speedometer-mileage__item {
+    border-bottom: none;
+    height: 1.3vh;
+    padding-bottom: 2vh;
+    margin-right: .15vh
+}
+
+body #app .hud-radmir-speedometer-mileage__item-value {
+    font-weight: 300;
+    font-size: 1.9vh;
+    line-height: 1.86vh;
+    color: #fff;
+    text-shadow: none;
+    font-family: 'GothamPro Light';
+    font-style: normal;
+    transition: none !important
+}
+
+body #app .hud-radmir-speedometer-secondary_helloween {
+    background-image: none
+}
+
+#app .hud-radmir-speedometer-secondary {
+    width: 11vh;
+    height: 2.5vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: -2vh;
+    bottom: 2.1vh
+}
+
+body #app .hud-radmir-speedometer-secondary__fuel,
+body #app .hud-radmir-speedometer-secondary__wash {
+    padding: 0;
+    position: relative;
+    left: 0;
+    top: 0
+}
+
+body #app .hud-radmir-speedometer-secondary__fill {
+    display: none
+}
+
+body #app .hud-radmir-speedometer-secondary__data-value {
+    font-family: 'GothamPro Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vh;
+    text-align: center;
+    color: #fff;
+    text-shadow: none
+}
+
+body #app .hud-radmir-speedometer-secondary__data-value svg {
+    margin-top: 0
+}
+
+body #app .hud-radmir-speedometer-secondary__data-value svg path {
+    fill: #fff
+}
+
+body #app .hud-radmir-speedometer-secondary__data-text {
+    display: none
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(1) {
+    margin-top: -11.1vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(1) {
+    margin-top: -9.3vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed.hud-radmir-speedometer-main__speed_helloween>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(1)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(2)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(3)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(1) {
+    margin-top: -11.1vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(4)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(1) {
+    margin-top: -9.3vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(5)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(6)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(1) {
+    margin-top: -16.7vh !important
+}
+
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(10),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(2),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(3),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(4),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(5),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(6),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(7),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(8),
+#app>div.app>div:first-child>div>div.hud>div>div.hud-radmir-speedometer-main>div.hud-radmir-speedometer-main__speed>div.hud-radmir-speedometer-mileage.hud-radmir-speedometer-main__mileage.hud-radmir-speedometer-main__hidden>div>div:nth-child(7)>div:nth-child(9) {
+    margin-top: 0 !important
+}
+body #app .capture-table {
+    flex-direction: column !important;
+    min-width: 35vh !important;
+    background: rgba(0, 0, 0, .8) !important;
+    padding: 1.5vh 2vh !important;
+    padding-top: 3.6vh !important;
+    border-radius: .46vh !important;
+    box-shadow: none !important;
+    align-items: flex-start !important;
+    left: 2.5vh !important;
+    bottom: 28vh !important
+}
+
+#app .capture-table__col .name,
+#app .capture-table__col-kills,
+#app .capture-table__col-kills.my,
+#app .capture-table__timer {
+    width: auto !important;
+    height: auto !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    background: 0 0 !important;
+    padding: 0 !important
+}
+
+#app .capture-table__col-kills,
+#app .capture-table__col-kills.my {
+    margin: 0 !important
+}
+
+body .capture-table__col {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    height: 3vh !important;
+    flex-basis: 100% !important;
+    justify-content: space-between !important;
+    flex-direction: row-reverse !important
+}
+
+body .capture-table__col-kills {
+    color: #b8303a !important;
+    font-size: 2.5vh !important;
+    font-style: normal !important
+}
+
+body .capture-table__col .name {
+    font-style: normal !important;
+    font-size: 2vh !important;
+    margin-right: 3vh !important
+}
+
+body .capture-table__timer {
+    color: #26a62b !important;
+    font-style: normal !important;
+    font-size: 2.5vh !important;
+    position: absolute !important;
+    top: .5vh !important;
+    left: -.5vh !important
+}
 
         body .authorization { background: none !important; }
         #app .authorization {
@@ -1572,3 +2123,142 @@ ${bayokNewHudConfig.style.authorization}
     });
   };
 AddHud();
+
+function executeFunctionWhen(fn, condition, name = "executeFunctionWhen", intervalTime = 50) {
+    const startTime = performance.now();
+
+    const intervalId = setInterval(() => {
+        if (condition() == true) {
+            const executionTime = performance.now() - startTime;
+
+            console.log(`Executed <${name}> in ${executionTime}ms`);
+
+            try {
+                fn();
+            } catch (error) {}
+
+            clearInterval(intervalId);
+            return;
+        }
+    }, intervalTime);
+}
+
+const oldInfoCard = {
+    gameTextInterval: null,
+    isBusinessOpen: false,
+    openOldInfoCard(params, interfaceName) {
+        if (typeof params === "string") params = JSON.parse(params);
+
+        let houseTypes = [
+            "Эконом класс",
+            "Деревенски дом",
+            "Средни класс",
+            "Премиум класс",
+            "Элитны дом",
+            "Эконом класс",
+            "VIP класс",
+            "Квартира",
+        ];
+
+        let type = interfaceName == "Business" ? 1 : 0;
+        let name = type == 0 ? params[1] : params[2];
+        let roomAmount = type == 0 ? params[4] : params[6];
+        let owner = type == 0 ? params[2] : params[3];
+        let price = type == 0 ? params[6] : params[5];
+        let rent = type == 0 ? params[5] : params[4];
+        let paramType =
+            type == 0 ? houseTypes.indexOf(params[3].replace("й", "").replace("й", "").replace("+", "")) : params[1];
+
+        params = JSON.stringify([type, name, roomAmount, owner, price, rent, paramType]);
+
+        window.openInterface("InfoCard", params);
+
+        if (name.toLocaleLowerCase().includes("киоск")) {
+            executeFunctionWhen(
+                () => {
+                    const head = window.interface("InfoCard").$el.querySelector(".biz .status");
+                    head.classList.remove("status");
+                    head.classList.add("text");
+
+                    head.innerHTML = `<span style="color: hsl(336deg 28% 67%)">Свободных полок: ${roomAmount}<span>`;
+
+                    window.interface("InfoCard").$el.querySelector(".params .info-card__data-row .text").textContent =
+                        "Налог на продажу";
+
+                    window
+                        .interface("InfoCard")
+                        .$el.querySelector(".params .info-card__data-row .title").textContent = `${rent}%`;
+                },
+                () => window.interface("InfoCard") && typeof window.interface("InfoCard").$el !== "undefined",
+                100
+            );
+
+            return;
+        }
+
+        executeFunctionWhen(
+            () => {
+                const head = window.interface("InfoCard").$el.querySelector(".title .span");
+
+                head.textContent = name;
+            },
+            () => window.interface("InfoCard") && typeof window.interface("InfoCard").$el !== "undefined",
+            100
+        );
+    },
+    onCloseInterface() {
+        clearInterval(oldInfoCard.gameTextInterval);
+        window.interface("GameText").add(`[3,\"~w~Для взаимодействия нажмите ~g~ALT\",500,0,0,0]`);
+        window.closeInterface("InfoCard");
+    },
+    hookAndReplaceNewInfoCard() {
+        window.App.$refs.Appartament = [
+            {
+                close: () => this.onCloseInterface(),
+            },
+        ];
+
+        window.App.$refs.Business = [
+            {
+                close: () => this.onCloseInterface(),
+            },
+        ];
+
+        window.openInterface = new Proxy(window.openInterface, {
+            apply: (target, thisArgs, args) => {
+                try {
+                    if (args[0] === "Business") this.isBusinessOpen = true;
+
+                    if (args[0] === "Business" || args[0] === "Appartament") {
+                        window.interface("GameText").add(`[3,\"~w~Для взаимодействия нажмите ~g~ALT\",3000,0,0,0]`);
+                        oldInfoCard.gameTextInterval = setInterval(
+                            () =>
+                                window
+                                    .interface("GameText")
+                                    .add(`[3,\"~w~Для взаимодействия нажмите ~g~ALT\",3000,0,0,0]`),
+                            2000
+                        );
+                        oldInfoCard.openOldInfoCard(args[1], args[0]);
+                        return 0;
+                    }
+                } catch (error) {}
+
+                return Reflect.apply(target, thisArgs, args);
+            },
+        });
+
+        this.onKeyDown();
+
+        jsLoader.showConnectedScript("info", "Старая карточка бизов/домов by sunset");
+    },
+
+    onKeyDown() {
+        document.addEventListener("keydown", (e) => {
+            if (e.repeat) return;
+
+            if (this.isBusinessOpen && e.keyCode === 18) window.sendClientEvent(0, "Business_OnPlayerEnter");
+        });
+    },
+};
+
+oldInfoCard.hookAndReplaceNewInfoCard();
