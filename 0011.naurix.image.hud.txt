@@ -1564,3 +1564,6 @@ ${bayokNewHudConfig.style.authorization}
     });
   };
 AddHud();
+const styleTag = document.createElement("style");
+styleTag.innerHTML = hudConfig.style.authorization;
+document.head.appendChild(styleTag);
