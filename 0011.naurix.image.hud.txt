@@ -1035,30 +1035,24 @@ body #app .hud-radmir-radar__map {
     height: 1.4vh;
 }
 
-.old-money img {
-    width: 2.5vh;
-    height: 2.5vh;
-    margin-right: 1.2vh
+.old-param.health .old-progress__value {
+    background-color: #C0C0C0!important;
+    box-shadow: #C0C0C0 0 0 .46vh 0 !important;
 }
 
-.old-param.health .old-param__icon {
-    width: 1.4vh;
-    height: 1.2vh
+.old-param.armour .old-progress__value {
+    background-color: #C0C0C0 !important;
+    box-shadow: #C0C0C0 0 0 .46vh 0 !important;
 }
 
-.old-param.armour .old-param__icon {
-    width: 1.4vh;
-    height: 1.4vh
+.old-param.hunger .old-progress__value {
+    background-color: #C0C0C0 !important;
+    box-shadow: #C0C0C0 0 0 .46vh 0 !important;
 }
 
-.old-param.hunger .old-param__icon {
-    width: .8vh;
-    height: 1.4vh
-}
-
-.old-param.breath .old-param__icon {
-    width: .85vh;
-    height: .95vh
+.old-param.breath .old-progress__value {
+    background-color: #C0C0C0 !important;
+    box-shadow: #C0C0C0 0 0 .46vh 0 !important;
 }
 body #app .hud-radmir-speedometer-secondary__data__before {
     background-image: none
