@@ -1776,11 +1776,11 @@ body .capture-table__timer {
        margin-left: 3px
       }
       .Old-Fixed-Param.health .Old-Progress__Values{
-       background-color:#ed2e2e;
+       background-color:#ffffff;
        box-shadow:#ed2e2e80 0 0 .46vh 0
       }
       .Old-Fixed-Param.armour .Old-Progress__Values{
-       background-color:#526ee6;
+       background-color:#ffffff;
        box-shadow:#526ee680 0 0 .46vh 0
       }
       .Old-Fixed-Param.hunger .Old-Progress__Values{
@@ -1818,7 +1818,7 @@ body .capture-table__timer {
        z-index:-1
       }
       .Wanted_row img{
-       width: 2.vh;
+       width: 2.5vh;
        height:2.7vh;
        padding:.19vh .28vh
       }
