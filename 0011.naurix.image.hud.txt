@@ -1265,8 +1265,8 @@ body #app .hud-radmir-radar__map {
        z-index:-1
       }
       .Wanted_row img{
-       width: 2.3vh;
-       height:2.3vh;
+       width: 2.7vh;
+       height:2.7vh;
        padding:.19vh .28vh
       }
       .Old-Fixed-HudBottom{
