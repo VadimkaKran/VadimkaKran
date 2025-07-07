@@ -1619,242 +1619,58 @@ body .capture-table__timer {
       }
       .Old-Fixed-HudTop{
        position:absolute;
-       right:1.4vw;
-       top:3.4vh;
        display:flex;
        flex-direction:column;
        align-items:flex-end
       }
       .Old-Fixed-Logo{
        position:relative;
-       margin-bottom:3vh
-      }
-      .Old-Fixed-Logo img{
-       width:20.52vh;
-       height:8.2vh;
-       margin-right:2vh
-      }
-      .Old-Fixed-Bonus{
-       background:#000000;
-       width: 32px;
-       height: 32px;
        display: flex;
        align-items: center;
        justify-content: center;
-       font-size: 16px;
-       color: #fff;
        font-weight: 700;
        position: absolute;
-       bottom: -5px;
-       right: -2px;
-       border-radius: 50%;
        font-family:'GothamPro Bold Italic';
        font-weight:900;
-       font-size:1.3vh
-      }
-      .Old-Fixed-Main,.Old-Fixed-Cash,.Wanted_row{
-       align-items:center;
        display:flex
       }
       .Old-Fixed-Main{
-       margin-top:.46vh;
-       margin-right:3.46vh
-      }
-      .Old-Fixed-Weapon{
-       width:16.6vh;
-       height:16.6vh;
-       position:relative;
        display:flex;
        justify-content:flex-end;
-       margin-left:-.93vh;
-       margin-right:.46vh
-      }
-      .Ammo-in-clip,.old-param__icon{
-       margin-right:1.11vh
-      }
-      .Old-Fixed-Weapon_back{
-       position:absolute;
-       right:-1.4vh;
-       top:-1.6vh;
        z-index:-1
       }
       .Old-Fixed-Weapon_icon{
-       width:37vh;
-       height:16.6vh
-      }
-      .Old-Fixed-Weapon_ammo{
-       position:absolute;
-       bottom:3.6vh;
-       right:5vh;
        display:flex;
        align-items:flex-end;
-       color: #fff;
       }
       .Ammo-in-clip{
-       font-size:2.31vh;
-       line-height:1;
-       text-shadow:0 0 .46vh #00000080
-      }
-      .Ammo-full{
-       font-family:'GothamPro Light Italic';
+       line-
        font-weight:300;
        font-style:italic;
-       font-size:1.67vh;
-       text-shadow:0 0 .46vh #000000b3
-      }
-      .Old-Fixed-Params{
-       height:13.5vh;
-       position:relative;
        z-index:1
       }
       .Old-Fixed-Cash{
        justify-content:flex-end;
-       color: white;
        font-family:"GothamPro Black Italic";
        font-style:italic;
-       font-size:2.59vh;
-       text-shadow:0 0 .46vh #00000080
-      }
-      .Old-Fixed-Cash img{
-       margin-right: 13px;
-       margin-top: 1px
-      }
-      .Old-Fixed-Params__all{
-       margin-top:1vh
-      }
-      .Old-Fixed-Param{
-       display:flex;
-       align-items:center;
-       margin-top:.95vh
-      }
-      .Old-Fixed-Param.health{
-        margin-top:0;
-        margin-left:1.85vh
-      }
-      .Old-Fixed-Param.armour,.Old-Param-Values{
-       margin-left:1vh
-      }
-      .Old-Param-Progress,.Old-Progress__Values{
-       width:9.40vh;
-       height:.46vh;
-       background-color:#0000004d;
-       border-radius:.46vh
-      }
-      .Old-Progress__Values{
-       display:flex;
        justify-content:flex-end
       }
       .Old-Progress__Values .circle{
-       width:.85vh;
-       height:.93vh;
-       margin-top:-.25vh;
-       margin-right:-.28vh
-      }
-      .Old-Param-Values{
-       font-family:"GothamPro Light Italic";
        font-weight:300;
        font-style:italic;
-       color: white;
-       width:3.24vh;
-       font-size:1.67vh;
-       text-shadow:0 0 .46vh #000000b3
-      }
-      .Old-Fixed-Freeze_text{
-        margin-right:1vh;
-      }
-      .Old-Fixed-Freeze_value, .Old-Fixed-Freeze_text{
-       font-family:"GothamPro Bold";
        font-weight:900;
-       color:#c0ccec;
-       font-size:2vh;
-       text-shadow:0 0 2vh #000
-      }
-      .Old-Fixed-Param.hunger{
-       margin-left:.09vh
-      }
-      .Old-Fixed-Param.breath{
-       margin-left: 3px
-      }
-      .Old-Fixed-Param.health .Old-Progress__Values{
-       background-color:#ffffff;
-       box-shadow:#ed2e2e80 0 0 .46vh 0
-      }
-      .Old-Fixed-Param.armour .Old-Progress__Values{
-       background-color:#ffffff;
-       box-shadow:#526ee680 0 0 .46vh 0
-      }
-      .Old-Fixed-Param.hunger .Old-Progress__Values{
-       width: 50%;
-       box-shadow: hsl(26deg 100% 59% / 30%) 0 0 5px 0;
-       background-color: #ff872e
-      }
-      .Old-Fixed-Param.breath .Old-Progress__Values{
-        width: 99%;
-        background-color: #fff;
-        box-shadow: rgba(255, 255, 255, .5) 0 0 5px 0
-      }
-      .Old-Fixed-Param.health .old-param__icon{
-       margin-left: 20px
-      }
-      .Old-Fixed-Param.armour .old-param__icon{
-       margin-left: 14px
-      }
-      .Old-Fixed-Param.hunger .old-param__icon{
-       margin-left: 1px
-      }
-      .Old-Fixed-Param.breath .old-param__icon{
-       width:1.7vh;
-       height:1.7vh
-      }
-      .Old-Fixed-Wanted{
-       position:relative;
-       margin-right:6vh;
-       margin-top:-1.6vh
-      }
-      .Old-Fixed-Wanted_back{
-       position:absolute;
-       right:-1.2vh;
-       top:-.66vh;
        z-index:-1
       }
       .Wanted_row img{
-       width: 1.35vh;
-       height:2vh;
-       padding:.19vh .28vh
-      }
-      .Old-Fixed-HudBottom{
-        transform-origin: right bottom;
         position: absolute;
-        right: 0;
-        top: 20px;
       }
       .Old-Fixed-ZZ{
        position:absolute;
-       left:21.3vh;
-       bottom:-98.9vh
-      }
-      .Old-Fixed-ZZ_icon{
-       width:4.5vh;
-       height:4.5vh
-      }
-      .Old-Fixed-Freeze {
-        position: absolute;
-        background: hsl(190deg 63% 66% / 40%);
-        width: 26.1111vh;
-        height: 0.65vh;
-        border-radius: 1vh;
         outline: hsl(0deg 0% 0% / 20%) 0.2vh solid;
         outline-offset: 0.1vh;
         overflow: hidden;
-        left: 11.1620vh;
-        bottom: 2.7778vh;
       }
-      #app .hud-radmir-wanted{display:none}#app .hud-radmir-radar__radar-border{display:none}#app .hud-radmir-radar__radar-border_new-year{display:none}#app .hud-radmir-radar__radar-bats {display:none}#app .vignette {display:none}
-      body .OLD-RADMIR-logo__bonus {
-    background: #000000c5
-}
-${bayokNewHudConfig.style.authorization}
-      `;
+      #app .hud-radmir-wanted{display:none}#app .hud-radmir-radar__radar-
       document.head.appendChild(hudStyleElement);
       const hudElement = document.createElement("div");
       hudElement.id = 'OldHudContainer';
@@ -1872,50 +1688,7 @@ ${bayokNewHudConfig.style.authorization}
                  <div class="Old-Fixed-Param health">
                     <img src="${bayokNewHudConfig.icons.health}" class="old-param__icon">
                     <div class="Old-Param-Progress">
-                       <div class="Old-Progress__Values" style="width:100%"><img src="${bayokNewHudConfig.icons.circle}" class="circle"></div>
-                    </div>
-                    <span class="Old-Param-Values">100</span>
-                 </div>
-                 <div class="Old-Fixed-Param armour">
-                    <img src="${bayokNewHudConfig.icons.armour}" class="old-param__icon">
-                    <div class="Old-Param-Progress">
-                       <div class="Old-Progress__Values" style="width:100%"><img src="${bayokNewHudConfig.icons.circle}" class="circle"></div>
-                    </div>
-                    <span class="Old-Param-Values">100</span>
-                 </div>
-                 <div class="Old-Fixed-Param hunger">
-                    <img src="${bayokNewHudConfig.icons.hunger}" class="old-param__icon">
-                    <div class="Old-Param-Progress">
-                       <div class="Old-Progress__Values" style="width:100%"><img src="${bayokNewHudConfig.icons.circle}" class="circle"></div>
-                    </div>
-                    <span class="Old-Param-Values">100</span>
-                 </div>
-                 <div class="Old-Fixed-Param breath">
-                    <img src="${bayokNewHudConfig.icons.breath}" class="old-param__icon">
-                    <div class="Old-Param-Progress">
-                       <div class="Old-Progress__Values" style="width:100%"><img src="${bayokNewHudConfig.icons.circle}" class="circle"></div>
-                    </div>
-                    <span class="Old-Param-Values">100</span>
-                 </div>
-              </div>
-           </div>
-           <div class="Old-Fixed-Weapon">
-              <img src="${bayokNewHudConfig.icons.wanted_back}" class="Old-Fixed-Weapon_back"> <img src="${bayokNewHudConfig.weapon[0]}" class="Old-Fixed-Weapon_icon">
-              <div class="Old-Fixed-Weapon_ammo"><span class="Ammo-in-clip">1</span><span class="Ammo-full">1</span></div>
-           </div>
-        </div>
-        <div class="Old-Fixed-Wanted">
-           <img src="${bayokNewHudConfig.icons.weapon_back}" class="Old-Fixed-Wanted_back">
-           <div class="Wanted_row"><img src="${bayokNewHudConfig.icons.inactive_wanted}" class="wanted-innactive"> <img src="${bayokNewHudConfig.icons.inactive_wanted}" class="wanted-innactive"> <img src="${bayokNewHudConfig.icons.inactive_wanted}" class="wanted-innactive"> <img src="${bayokNewHudConfig.icons.active_wanted}" class="wanted-active"> <img src="${bayokNewHudConfig.icons.active_wanted}" class="wanted-active"> <img src="${bayokNewHudConfig.icons.active_wanted}" class="wanted-active"></div>
-        </div>
-      </div>
-      <div class="Old-Fixed-HudBottom">
-      <div class="Old-Fixed-ZZ"><img src="${bayokNewHudConfig.icons.zone}" class="Old-Fixed-ZZ_icon"></div>
-      <div class="Old-Fixed-Freeze">
-      <span class="Old-Fixed-Freeze_text">Freeze:</span>
-      <span class="Old-Fixed-Freeze_value">100</span>
-      </div></div>
-      `;
+                       <div class="Old-Progress__Values" style="
       document.body.appendChild(hudElement);
       hudElements.push(OldHudContainer);
     }
