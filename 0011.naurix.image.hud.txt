@@ -1818,8 +1818,8 @@ body .capture-table__timer {
        z-index:-1
       }
       .Wanted_row img{
-       width: 2.5vh;
-       height:2.7vh;
+       width: 1.35vh;
+       height:2vh;
        padding:.19vh .28vh
       }
       .Old-Fixed-HudBottom{
