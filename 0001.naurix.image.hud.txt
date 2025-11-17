@@ -1,16 +1,16 @@
 function AddHud() {
     let hudStyleElement;
-    window.asperyneloader = window.asperyneloader || {};
+    window.epilepsialoader = window.epilepsialoader || {};
 
     function formatNumberWithDots(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 
-    asperyneloader.addLabel = function (message) {
-        let notificationElement = document.getElementById('asperyneloader-notification');
+    epilepsialoader.addLabel = function (message) {
+        let notificationElement = document.getElementById('epilepsialoader-notification');
         if (!notificationElement) {
             notificationElement = document.createElement('div');
-            notificationElement.id = 'asperyneloader-notification';
+            notificationElement.id = 'epilepsialoader-notification';
             notificationElement.style.position = 'fixed';
             notificationElement.style.bottom = '20px';
             notificationElement.style.right = '20px';
@@ -2484,17 +2484,17 @@ body .capture-table__timer {
     }
 };unction AddHud() {
     let hudStyleElement;
-    window.asperyneloader = window.asperyneloader || {};
+    window.epilepsialoader = window.epilepsialoader || {};
 
     function formatNumberWithDots(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 
-    asperyneloader.addLabel = function (message) {
-        let notificationElement = document.getElementById('asperyneloader-notification');
+    epilepsialoader.addLabel = function (message) {
+        let notificationElement = document.getElementById('epilepsialoader-notification');
         if (!notificationElement) {
             notificationElement = document.createElement('div');
-            notificationElement.id = 'asperyneloader-notification';
+            notificationElement.id = 'epilepsialoader-notification';
             notificationElement.style.position = 'fixed';
             notificationElement.style.bottom = '20px';
             notificationElement.style.right = '20px';
