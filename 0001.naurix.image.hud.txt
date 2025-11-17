@@ -678,9 +678,9 @@ body .capture-table__timer {
       .Old-Fixed-HudTop{
        position:absolute;
        right:1.4vw;
-       top:3.4vh;
+       bottom:3.4vh;
        display:flex;
-       flex-direction:column;
+       flex-direction:column-reverse;
        align-items:flex-end
       }
       .Old-Fixed-Logo{
@@ -1160,37 +1160,13 @@ body .capture-table__timer {
         });
     }
     
-    // Функция для проверки авторизации
-    function checkAuthorization() {
-        // Проверяем наличие элемента авторизации
-        const authElement = document.querySelector('.authorization');
-        const appElement = document.querySelector('#app');
-        
-        // Если элемент авторизации не виден или отсутствует, значит пользователь авторизован
-        if (!authElement || (authElement && window.getComputedStyle(authElement).display === 'none')) {
-            return true;
-        }
-        
-        // Дополнительная проверка - если есть #app и он виден, но нет .authorization
-        if (appElement && !authElement) {
-            return true;
-        }
-        
-        return false;
-    }
-    
     function initializeHudProxy() {
+        // Создаем HUD сразу, но он будет скрыт
+        createHud();
+        
         const checkInterval = setInterval(() => {
-            // Проверяем авторизацию перед созданием HUD
-            if (!checkAuthorization()) {
-                return; // Если не авторизован, продолжаем ждать
-            }
-            
-            if (typeof window.interface === "function" && window.interface("Hud").info) {
+            if (typeof window.interface === "function" && window.interface("Hud") && window.interface("Hud").info) {
                 clearInterval(checkInterval);
-                
-                // Создаем HUD только после авторизации
-                createHud();
                 
                 const hudInfo = window.interface("Hud").info;
                 const clonedHudInfo = JSON.parse(JSON.stringify(hudInfo));
@@ -1217,6 +1193,12 @@ body .capture-table__timer {
                 window.interface("Hud").hideGreenZoneTab = () => {
                     onInfoChange("greenZone", false);
                 };
+                
+                // Показываем HUD после инициализации интерфейса (после авторизации)
+                const hudEl = document.querySelector(".Old-Fixed-Hud");
+                if (hudEl && hudInfo.show >= 1) {
+                    hudEl.style.display = "";
+                }
             }
         }, 100);
     }
