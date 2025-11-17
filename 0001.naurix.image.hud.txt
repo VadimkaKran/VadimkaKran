@@ -2028,23 +2028,9 @@ body .capture-table__timer {
         },
     };
     function onInfoChange(type, value) {
-        setTimeout(() => {
-            loadingNotification.style.opacity = '0';
-            setTimeout(() => {
-                if (loadingNotification) {
-                    loadingNotification.remove();
-                }
-            }, 2500);
-        }, 1000);
         if (updateFunctions[type]) {
             updateFunctions[type](value);
         }
-        const hudInfo = window.interface("Hud").info;
-        Object.entries(updateFunctions).forEach(([key, func]) => {
-            if (typeof func === "function" && hudInfo.hasOwnProperty(key)) {
-                func(hudInfo[key]);
-            }
-        });
     }
     function updateParam(paramClass, value) {
         const paramElement = document.querySelector(`.Old-Fixed-Param.${paramClass}`);
@@ -2113,14 +2099,5 @@ body .capture-table__timer {
     }
     initializeHudProxy();
     window.onInfoChange = onInfoChange;
-    setTimeout(() => {
-        hudElements.forEach(el => el.remove());
-        if (hudScript) {
-            hudScript.remove();
-        }
-        if (hudStyleElement) {
-            hudStyleElement.remove();
-        }
-    });
 };
 AddHud();
